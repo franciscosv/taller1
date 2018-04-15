@@ -1,0 +1,5 @@
+ String Nombre = TxtNombre.Text;
+            String mes = TxtMes.Text;
+            String horaExtra= TxtHoras.Text;
+            Double sueldoBase = Convert.ToDouble(TxtSueldo.Text);
+            MessageBox.Show("el trabajador" + Nombre + "en el mes de" + mes + "ha generado un total de" + horaExtra + "que equivale a un" +sueldoBase);
