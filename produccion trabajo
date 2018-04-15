@@ -1,0 +1,18 @@
+  private void Calcular_Click(object sender, EventArgs e)
+        {
+            Double lunes = Convert.ToDouble(TxtLunes.Text);
+            Double martes = Convert.ToDouble(TxtMartes.Text);
+            Double miercoles = Convert.ToDouble(TxtMiercoles.Text);
+            Double jueves = Convert.ToDouble(TxtJueves.Text);
+            Double viernes = Convert.ToDouble(TxtViernes.Text);
+            Double sabado = Convert.ToDouble(TxtSabado.Text);
+
+            Double produccion = (lunes + martes + miercoles + jueves + viernes + sabado);
+            MessageBox.Show("la producion total es" + produccion);
+
+            
+
+
+        }
+    }
+}
