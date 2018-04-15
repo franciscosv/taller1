@@ -1,0 +1,10 @@
+    private void button1_Click(object sender, EventArgs e)
+        {
+            Double Dvd = Convert.ToDouble(txtDvd.Text);
+            Double Gb = Convert.ToDouble(txtGB.Text);
+
+            Double DvdTotal = (Dvd + Gb);
+            MessageBox.Show("se neceista la cantidad de dvd" + DvdTotal + " Para respaldar gb");
+        }
+    }
+}
