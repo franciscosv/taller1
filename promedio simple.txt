@@ -1,0 +1,17 @@
+ private void button1_Click(object sender, EventArgs e)
+        {
+            String Nombre = TxtNombre.Text;
+            Double nota1 = Convert.ToDouble(TxtNota1.Text);
+            Double nota2 = Convert.ToDouble(TxtNota2.Text);
+            Double nota3 = Convert.ToDouble(TxtNota3.Text);
+            Double nota4 = Convert.ToDouble(TxtNota4.Text);
+            Double promedio = (nota1 + nota2 + nota3 + nota4) / 4;
+            MessageBox.Show(Nombre + "su promedio de nota es:" + promedio);
+
+
+           
+
+        }
+
+
+    }

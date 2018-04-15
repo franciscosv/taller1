@@ -1,0 +1,11 @@
+ private void button1_Click(object sender, EventArgs e)
+        {
+            String Nombre = TxtNombre.Text;
+            Double Respuestacorrecta = Convert.ToDouble(TxtBuenas.Text);
+            Double RespuestaIncorrecta = Convert.ToDouble(TxtMalas.Text);
+            Double RespuestaBlancas = Convert.ToDouble(TxtBlancas.Text);
+            Double PuntajeFinal = (Respuestacorrecta + RespuestaIncorrecta + RespuestaBlancas);
+            MessageBox.Show(Nombre + "su puntaje final es" + PuntajeFinal);
+        }
+    }
+}

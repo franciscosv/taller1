@@ -1,0 +1,9 @@
+    private void button1_Click(object sender, EventArgs e)
+        {
+            double unidad = Convert.ToDouble(txtUnidad.Text);
+            double descena = Convert.ToDouble(txtUnidad.Text);
+
+            MessageBox.Show("la unidad es " + unidad + "la descena es" + descena);
+        }
+    }
+}

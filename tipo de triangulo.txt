@@ -1,0 +1,32 @@
+  private void button1_Click(object sender, EventArgs e)
+        {
+            
+            Double lado1 = Convert.ToDouble(TxtLado1.Text);
+            Double lado2 = Convert.ToDouble(TxtLado2.Text);
+            Double lado3 = Convert.ToDouble(TxtLado3);
+
+
+            Double Triangulo= (lado1  == lado2 && lado == lado3)
+            {
+                MessageBox.Show("El tipo de triangulo es" + equilatero);
+            }
+
+               if 
+               Triangulo ( lado 1 == lado 2 || lado2 != lado3)
+           {
+               MessageBox.Show ("El tipo de triangulo es isoscele");
+           }
+
+else
+{
+  Triangulo ( lado 1!=lado 2 && lado2 != lado3)
+           {
+               MessageBox.Show ("El tipo de triangulo es escaleno");
+           }
+}
+                         
+
+            
+
+
+        }
