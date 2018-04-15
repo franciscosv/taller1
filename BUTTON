@@ -1,0 +1,65 @@
+   private void button2_Click(object sender, EventArgs e)
+        {
+            Formulario.Puntaje_Final pun = new Formulario.Puntaje_Final();
+            pun.Show();
+
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Formulario.Liquidacion_Sueldo liqui = new Formulario.Liquidacion_Sueldo();
+            liqui.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Formulario.Cuantos_Dvd cuan = new Formulario.Cuantos_Dvd();
+            cuan.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Formulario.Hermano_Mayor herm = new Formulario.Hermano_Mayor();
+            herm.Show();
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Formulario.Produccion_Trabajo prod = new Formulario.Produccion_Trabajo();
+            prod.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Formulario.Numero_Mayor nume = new Formulario.Numero_Mayor();
+            nume.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Formulario.Tipo_Triangulo tipo = new Formulario.Tipo_Triangulo();
+            tipo.Show();
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Formulario.Metas_Ventas meta = new Formulario.Metas_Ventas();
+            meta.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Formulario.Unidad_Decenas uni = new Formulario.Unidad_Decenas();
+            uni.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Formulario.Hasta_Vocal hasta = new Formulario.Hasta_Vocal();
+            hasta.Show();
+        }
+    }
+}
