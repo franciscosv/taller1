@@ -1,0 +1,4 @@
+ Double numero1 = Convert.ToDouble(TxtNumero1.Text);
+            Double numero2 = Convert.ToDouble(TxtNumero2.Text);
+            Double numero3 = Convert.ToDouble(TxtNumero3.Text);
+            MessageBox.Show(numero2 + "es mayor");
