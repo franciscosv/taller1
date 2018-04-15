@@ -1,0 +1,10 @@
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String NombreHermano1 = TxtNombre.Text;
+            Double Edad1 = Convert.ToDouble(TxtEdad.Text);
+            String NombreHermano2 = TxtNombre1.Text;
+            Double Edad2 = Convert.ToDouble(TxtEdad1.Text);
+            MessageBox.Show(NombreHermano1 + "es mayor" + Edad1 + "que" + NombreHermano2);
+        }
+    }
+}
